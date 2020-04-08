@@ -1,7 +1,7 @@
 spring:
   cloud:
     config:
-      uri: http://34.80.214.44:8888
-      name: jiang-web-admin
+      uri: http://jiangshikai.com:8888
+      name: jiang-client-eureka, jiang-client-zipkin, jiang-client-admin, jiang-common-web, jiang-web-admin
       label: master
       profile: dev
