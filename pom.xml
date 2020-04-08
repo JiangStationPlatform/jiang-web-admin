@@ -21,6 +21,11 @@
             <artifactId>jiang-common-web</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
+        <dependency>
+            <groupId>cn.jiang</groupId>
+            <artifactId>jiang-common-domain</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
         <!-- comment依赖 End-->
 
         <!-- Spring Boot Begin -->

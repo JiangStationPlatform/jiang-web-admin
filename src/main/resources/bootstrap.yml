@@ -1,7 +1,7 @@
 spring:
   cloud:
     config:
-      uri: http://104.199.166.17:8888
+      uri: http://34.80.214.44:8888
       name: jiang-web-admin
       label: master
       profile: dev

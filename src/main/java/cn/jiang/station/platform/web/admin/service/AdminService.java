@@ -8,6 +8,4 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @FeignClient(value = "jiang-service-admin", fallback = AdminServiceFallback.class)
 public interface AdminService {
-    @RequestMapping(value = {"/login"}, method = RequestMethod.GET)
-    public String login(@RequestParam(value = "loginCode") String loginCode, @RequestParam(value = "password") String password);
 }
